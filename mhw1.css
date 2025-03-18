@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    width: 100vw;
+    height: 50px;
+
+    img{
+        max-height: 40px;
+    }
+
+    .header_nav_left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            color: #fff;
+            background-color: #333;
+            padding: 0 12px;
+            font-size: 1em;
+            height: 48px;
+            border-radius: 4px;
+            border: 0;
+        }
+
+        button:hover{
+            background-color: #fff;
+            color: #333;
+        }
+    }
+    .header_nav_right{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        svg{
+            width: 30px;
+        }
+    }
+
+    
+}
+
